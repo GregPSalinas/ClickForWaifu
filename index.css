@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+}
+
+#waifuContainer {
+    text-align: center;
+    padding: 5px;
+
+}
+
+#waifuImage {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#waifus {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    padding: 5%;
+}
+
+
+@media screen and (max-width: 800px) {
+    #waifus {
+        max-height: 600px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #waifus {
+        max-height: 600px;
+    }
+}
+
+
+.contactInfo {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    padding: 25%;
+}
