@@ -38,11 +38,20 @@ h1 {
     #waifus {
         max-height: 600px;
     }
+    #waifuButton, #waifuButtonNsfw {
+        margin: 10px;
+    }
+    h1 {
+        margin-top: -10px;
+    }
 }
 
 @media screen and (min-width: 800px) {
     #waifus {
         max-height: 600px;
+    }
+    #waifuButton, #waifuButtonNsfw {
+        margin: 10px;
     }
 }
 
@@ -51,5 +60,10 @@ h1 {
     font-size: 3em;
     display: flex;
     justify-content: center;
-    padding: 25%;
+    padding: 15%;
+}
+
+.contactInfo > a:hover {
+    text-decoration: none;
+    color: white;
 }
