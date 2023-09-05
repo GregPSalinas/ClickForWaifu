@@ -37,9 +37,11 @@ h1 {
     #waifus {
         max-height: 600px;
     }
-    #waifuButton, #waifuButtonNsfw {
+
+    #waifuButton, #waifuButtonNsfw, #ass, #milf, #hentai, #oral, #ecchi, #ero {
         margin: 10px;
     }
+
     h1 {
         margin-top: -10px;
     }
@@ -49,7 +51,8 @@ h1 {
     #waifus {
         max-height: 600px;
     }
-    #waifuButton, #waifuButtonNsfw {
+
+    #waifuButton, #waifuButtonNsfw, #ass, #milf, #hentai, #oral, #ecchi, #ero {
         margin: 10px;
     }
 }
@@ -61,7 +64,7 @@ h1 {
     padding: 15%;
 }
 
-.contactInfo > a:hover {
+.contactInfo>a:hover {
     text-decoration: none;
     color: white;
 }

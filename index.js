@@ -2,7 +2,6 @@ const waifuImage = document.querySelector('#waifus');
 const waifuButton = document.querySelector('#waifuButton');
 const waifuButtonNsfw = document.querySelector('#waifuButtonNsfw');
 
-
 const makeImages = (waifus) => {
     for(let result of waifus) {
         const img = document.createElement('IMG');
@@ -30,3 +29,4 @@ waifuButton.addEventListener('click', () => {
       })
       .catch(err => console.log(err))
   })
+
