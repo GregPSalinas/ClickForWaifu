@@ -5,6 +5,7 @@ const milf = document.querySelector("#milf");
 const oral = document.querySelector("#oral");
 const ecchi = document.querySelector("#ecchi");
 const ero = document.querySelector("#ero");
+const paizuri = document.querySelector('#paizuri');
 
 ass.addEventListener("click", () => {
   fetch("https://api.waifu.im/search?included_tags=ass")
@@ -53,6 +54,15 @@ ero.addEventListener("click", () => {
 
 hentai.addEventListener("click", () => {
   fetch("https://api.waifu.im/search?included_tags=hentai")
+    .then((res) => res.json())
+    .then((res) => {
+      waifuImage.src = res.images[0].url;
+    })
+    .catch((err) => console.log(err));
+});
+
+paizuri.addEventListener("click", () => {
+  fetch("https://api.waifu.im/search?included_tags=paizuri")
     .then((res) => res.json())
     .then((res) => {
       waifuImage.src = res.images[0].url;
