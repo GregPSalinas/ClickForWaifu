@@ -18,6 +18,7 @@ waifuButton.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -29,6 +30,7 @@ waifuButtonNsfw.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });

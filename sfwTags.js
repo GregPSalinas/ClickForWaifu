@@ -14,6 +14,7 @@ maid.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -24,6 +25,7 @@ waifu.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -34,6 +36,7 @@ raiden.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -44,6 +47,7 @@ oppai.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -54,6 +58,7 @@ selfies.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -64,6 +69,7 @@ uniform.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });

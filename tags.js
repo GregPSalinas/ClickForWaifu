@@ -15,6 +15,7 @@ ass.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -25,6 +26,7 @@ ecchi.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -35,6 +37,7 @@ milf.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -45,6 +48,7 @@ oral.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -55,6 +59,7 @@ ero.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -65,6 +70,7 @@ hentai.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -75,6 +81,7 @@ paizuri.addEventListener("click", () => {
     .then((res) => {
       waifuImage.src = res.images[0].url;
       imageLink.href = res.images[0].source;
+      imageLink.textContent = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
