@@ -1,4 +1,6 @@
 const waifuImage = document.querySelector("#waifus");
+const imageLink = document.querySelector("#imageLink");
+
 const maid = document.querySelector("#maid");
 const waifu = document.querySelector("#waifu");
 const raiden = document.querySelector("#raiden-shogun");
@@ -11,6 +13,7 @@ maid.addEventListener("click", () => {
     .then((res) => res.json())
     .then((res) => {
       waifuImage.src = res.images[0].url;
+      imageLink.href = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -20,6 +23,7 @@ waifu.addEventListener("click", () => {
     .then((res) => res.json())
     .then((res) => {
       waifuImage.src = res.images[0].url;
+      imageLink.href = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -29,6 +33,7 @@ raiden.addEventListener("click", () => {
     .then((res) => res.json())
     .then((res) => {
       waifuImage.src = res.images[0].url;
+      imageLink.href = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -38,6 +43,7 @@ oppai.addEventListener("click", () => {
     .then((res) => res.json())
     .then((res) => {
       waifuImage.src = res.images[0].url;
+      imageLink.href = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -47,6 +53,7 @@ selfies.addEventListener("click", () => {
     .then((res) => res.json())
     .then((res) => {
       waifuImage.src = res.images[0].url;
+      imageLink.href = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
@@ -56,6 +63,7 @@ uniform.addEventListener("click", () => {
     .then((res) => res.json())
     .then((res) => {
       waifuImage.src = res.images[0].url;
+      imageLink.href = res.images[0].source;
     })
     .catch((err) => console.log(err));
 });
