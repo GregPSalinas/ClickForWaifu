@@ -16,7 +16,6 @@ h1 {
 #waifuContainer {
     text-align: center;
     padding: 5px;
-
 }
 
 #waifuImage {
@@ -33,13 +32,26 @@ h1 {
     padding: 5%;
 }
 
+#waifuButton,
+#waifuButtonNsfw,
+#ass,
+#milf,
+#hentai,
+#oral,
+#ecchi,
+#ero,
+#maid,
+#waifu,
+#raiden,
+#oppai,
+#selfies,
+#uniform {
+    margin: 10px;
+}
+
 @media screen and (max-width: 800px) {
     #waifus {
         max-height: 600px;
-    }
-
-    #waifuButton, #waifuButtonNsfw, #ass, #milf, #hentai, #oral, #ecchi, #ero, #maid, #waifu, #raiden, #oppai, #selfies, #uniform {
-        margin: 10px;
     }
 
     h1 {
@@ -47,12 +59,8 @@ h1 {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
     #waifus {
         max-height: 600px;
-    }
-
-    #waifuButton, #waifuButtonNsfw, #ass, #milf, #hentai, #oral, #ecchi, #ero, #maid, #waifu, #raiden, #oppai, #selfies, #uniform {
-        margin: 10px;
     }
 }
