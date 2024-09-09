@@ -49,6 +49,51 @@ h1 {
     margin: 10px;
 }
 
+h2, a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: pink;
+}
+
+.container {
+    width: 100%; /* Full width for mobile */
+    padding: 10px;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh; /* Adjust panel height for mobile */
+    border-radius: 20px;
+    margin: 10px 0;
+    position: relative;
+    transition: all 0.8s ease;
+}
+
+.panel h3, .panel .artist {
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.panel.active h3, .panel.active .artist {
+    opacity: 1;
+}
+
+@media (max-width: 480px) {
+    .panel {
+        height: 60vh; /* Taller panels for small screens */
+    }
+}
+
+
 @media screen and (max-width: 800px) {
     #waifus {
         max-height: 600px;
