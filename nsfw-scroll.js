@@ -33,10 +33,7 @@ const loadRandomImage = (panel) => {
     .then((res) => res.json())
     .then((data) => {
       const imageUrl = data.images[0].url;
-      const artistSource = data.images[0].source || "Unknown artist";
-      const artistElement = panel.querySelector(".artist");
-      const linkElement = panel.querySelector("h3 a");
-
+     
       // Set background image and artist info
       panel.style.backgroundImage = `url(${imageUrl})`;
       linkElement.href = artistSource;
