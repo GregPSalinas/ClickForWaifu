@@ -33,7 +33,7 @@ const loadRandomImage = (panel) => {
     .then((res) => res.json())
     .then((data) => {
       const imageUrl = data.images[0].url;
-     
+
       // Set background image and artist info
       panel.style.backgroundImage = `url(${imageUrl})`;
       linkElement.href = artistSource;
